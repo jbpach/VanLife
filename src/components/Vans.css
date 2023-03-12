@@ -1,0 +1,59 @@
+.vans {
+    background-color:#FFF7ED;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.vans .container {
+    height: 100%;
+    width: 100%;
+    padding: 30px 25px;
+}
+
+.vans .container .grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    align-items: center;
+    justify-items: center;
+    padding: 32px;
+    gap: 20px;
+}
+
+.singleVan {
+    height: 310px;
+    width: 230px;
+}
+
+.singleVan img {
+    width: 100%;
+    height: 230px;
+}
+
+.singleVan h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #161616;
+    display: inline-block;
+}
+
+.singleVan span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    float: right;
+}
+
+.singleVan p {
+    width: fit-content;
+    background-color: #e17654;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFEAD0;
+    text-transform: capitalize;
+}

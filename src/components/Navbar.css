@@ -1,0 +1,28 @@
+nav { 
+  background-color: #fff7ed;
+}
+
+nav .container{
+  display:  flex;
+  align-items: center;
+  height: 112px;
+  padding: 30px 25px;
+}
+
+.nav-logo {
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 6px;
+}

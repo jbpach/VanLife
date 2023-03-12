@@ -1,0 +1,61 @@
+.van {
+    background-color:#FFF7ED;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.van .container {
+    height: 100%;
+    width: 100%;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.van .container a {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.van .container img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.van .container h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+.van .container span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+.van .container .tag {
+    width: fit-content;
+    background-color: #e17654;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFEAD0;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.van .container .des {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    margin-bottom: 21px;
+}

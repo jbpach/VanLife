@@ -1,0 +1,12 @@
+footer {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 89px;
+    background-color: #252525;
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
