@@ -35,7 +35,7 @@ const Van = () => {
                     (
                         Object.keys(van).length ? (
                             <>
-                                <Link to="/vans">← Back to all vans</Link>
+                                <Link to=".." relative="path">← Back to all vans</Link>
                                 <img src={van.imageUrl} alt="van"/>
                                 <p className="tag" style={{background: color[van.type]}}>{van.type}</p>
                                 <h1>{van.name}</h1>

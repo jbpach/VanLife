@@ -11,6 +11,9 @@ import Income from './components/HostComponents/Income';
 import Reviews from './components/HostComponents/Reviews';
 import HostVans from './components/HostComponents/HostVans';
 import HostVanDetail from './components/HostComponents/HostVanDetail';
+import Details from './components/HostComponents/HostVan/Details';
+import Pricing from './components/HostComponents/HostVan/Pricing';
+import Photos from './components/HostComponents/HostVan/Photos';
 
 const App = () => {
     return (
@@ -26,7 +29,11 @@ const App = () => {
                         <Route index element={<Host />} />
                         <Route path="income" element={<Income />} />
                         <Route path="vans" element={<HostVans />} />
-                        <Route path="vans/:id" element={<HostVanDetail />} />
+                        <Route path="vans/:id" element={<HostVanDetail />}>
+                            <Route index element={<Details />} />
+                            <Route path="pricing" element={<Pricing />} />
+                            <Route path="photos" element={<Photos />} />
+                        </Route>
                         <Route path="Reviews" element={<Reviews />} />
                     </Route>
                     

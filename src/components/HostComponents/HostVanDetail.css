@@ -1,0 +1,72 @@
+.host-van-details {
+    background-color:#FFF7ED;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.host-van-details .container {
+    width: 100%;
+    padding: 30px 25px;
+}
+
+.host-van-details .container .square {
+    margin-top: 27px;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+}
+
+.host-van-details .container .square .van-host-nav .nav-link {
+    padding: 0;
+    padding-right: 10px;
+}
+
+.info-container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas:    " pic tag"
+                            " pic name"
+                            " pic price";
+    grid-template-columns: 200px 1fr;
+
+}
+
+.info-container img {
+    grid-area: pic;
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.info-container .tag {
+    grid-area: tag;
+    width: fit-content;
+    background-color: #e17654;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFEAD0;
+    text-transform: capitalize;
+}
+
+.info-container h1 {
+    grid-area: name;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+}
+
+.info-container span {
+    grid-area: price;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.van-host-nav {
+    padding: 27px 0;
+}

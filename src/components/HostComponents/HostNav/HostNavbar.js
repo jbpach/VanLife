@@ -14,7 +14,7 @@ const HostNavbar = ( ) => {
                         };
                     }}  
                     end
-                    to="/host">
+                    to=".">
                 Dashboard</NavLink>
                 <NavLink 
                     className="nav-link" 

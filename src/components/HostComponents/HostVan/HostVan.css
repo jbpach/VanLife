@@ -1,0 +1,25 @@
+.details p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.pricing b {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+}
+
+.pricing b p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4D4D4D;
+}
+
+.photos img {
+    width: 103px;
+    height: 101px;
+    border-radius: 5px;
+}
