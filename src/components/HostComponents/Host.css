@@ -1,0 +1,28 @@
+.inline-block {
+    display: inline-block;
+}
+.float-right {
+    float: right;
+}
+
+.host-dashboard {
+    min-height: 80vh;
+    /* height: 100%; */
+    width: 100%;
+    background-color: #fff7ed;
+}
+
+.host-dashboard .container {
+    padding: 30px 25px;
+}
+
+.host-dashboard .host-welcome {
+    background-color: #FFEAD0;
+}
+
+.host-dashboard .host-review {
+    background-color: #FFDDB2;
+}
+.host-dashboard .host-vans {
+    background-color: #fff7ed;
+}

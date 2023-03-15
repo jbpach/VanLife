@@ -18,10 +18,11 @@
 }
 
 .van .container img {
-    width: 500px;
-    height: 500px;
+    max-width: 100%;
+    height: 100%;
     margin-bottom: 50px;
     align-self: center;
+    object-fit: cover;
 }
 
 .van .container h1 {

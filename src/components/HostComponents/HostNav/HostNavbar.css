@@ -1,0 +1,24 @@
+.host-nav {
+    background-color: #fff7ed;
+}
+
+.host-nav .container{
+    display:  flex;
+    align-items: center;
+    height: 112px;
+    padding: 30px 25px;
+}
+
+.nav-link {
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #161616;
+  }
