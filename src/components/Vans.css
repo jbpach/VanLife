@@ -1,6 +1,6 @@
 .vans {
     background-color:#FFF7ED;
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -10,11 +10,70 @@
     padding: 30px 25px;
 }
 
+.simple, .luxury, .rugged {
+    background-color: #FFEAD0;
+    
+}
+
+.simple:hover {
+    background-color: #e17654;
+    color: #FFEAD0;
+}
+.luxury:hover {
+    background-color: #161616;
+    color: #FFEAD0;
+}
+.rugged:hover {
+    background-color: #115e59;
+    color: #FFEAD0;
+}
+
+.simple-active {
+    background-color: #e17654;
+    color: #FFEAD0;
+}
+.luxury-active {
+    background-color: #161616;
+    color: #FFEAD0;
+}
+.rugged-active {
+    background-color: #115e59;
+    color: #FFEAD0;
+}
+
+.vans .container .filter-vans-nav {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    color: #4d4d4d;
+}
+.vans .container .filter-vans-nav button {
+    margin-right: 2%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.vans .container .filter-vans-nav .type-filter {
+    width: 104px;
+    height: 37px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.vans .container .filter-vans-nav .clear-filter {
+    width: 104px;
+    height: 37px;
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .vans .container .grid {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     align-items: center;
     justify-items: center;
     padding: 32px;

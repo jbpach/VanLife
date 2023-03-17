@@ -1,9 +1,10 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './Van.css';
 
 const Van = () => {
     const { id } = useParams();
+    const location = useLocation();
     const [van, setVans] = useState({});
     const color = {
         "simple": "#E17654",
@@ -11,6 +12,7 @@ const Van = () => {
         "luxury": "#161616"
     };
     const [loading, setLoading] = useState(true);
+    console.log(location)
 
     useEffect(() => {
         const fecthVan = async () => {
@@ -26,7 +28,9 @@ const Van = () => {
         fecthVan();
     }, [id])
 
-    console.log(van)
+    const search = location.state?.search || "";
+    const type = location.state?.type || "all"
+
     return (
         <div className="van">
             
@@ -35,7 +39,8 @@ const Van = () => {
                     (
                         Object.keys(van).length ? (
                             <>
-                                <Link to=".." relative="path">← Back to all vans</Link>
+                                {/* <Link to=".." relative="path">← Back to all vans</Link> */}
+                                <Link to={`./..${search}`}>← Back to {type} vans</Link>
                                 <img src={van.imageUrl} alt="van"/>
                                 <p className="tag" style={{background: color[van.type]}}>{van.type}</p>
                                 <h1>{van.name}</h1>
