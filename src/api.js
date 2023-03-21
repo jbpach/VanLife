@@ -11,7 +11,7 @@ export const getVans = async () => {
     // return data.vans
 
     try {
-        const response = await fetch("http://localhost:3000/api/vans");
+        const response = await fetch("/api/vans");
         const data = await response.json();
         return data.vans;
     } catch (err) {
