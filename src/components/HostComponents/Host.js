@@ -15,7 +15,7 @@ const Host = () => {
                 </div>
                 <div className="host-review">
                     <div className="container">
-                        <h3 className="inline-block">Review Score 5.0/5</h3>
+                        <h3 className="inline-block">Review Score ⭐5.0/5</h3>
                         <Link className="float-right" to="/host/reviews">Details</Link>
                     </div>
                 </div>
