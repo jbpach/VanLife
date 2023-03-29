@@ -10,7 +10,6 @@ const Vans = () => {
     const vans = useLoaderData()
     const [searchParams, setSearchParams] = useSearchParams();
     const typeFilter = searchParams.get("type");
-    console.log(typeFilter)
     const color = {
         "simple": "#E17654",
         "rugged": "#115E59",
@@ -21,7 +20,6 @@ const Vans = () => {
         ? vans.filter(van => van.type === typeFilter)
         : vans
 
-    console.log(displayedVans)
     const vanElements = displayedVans.map(van => ( 
         <div className="singleVan" key={van.id}>
             <Link to={`/vans/${van.id}`} state={{search : typeFilter ? `?${searchParams.toString()}` : null, type: typeFilter}}>

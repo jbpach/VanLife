@@ -14,7 +14,7 @@ const Navbar = () => {
                             textDecoration: isActive ? "underline" : "",
                         };
                     }} 
-                    to="/host"
+                    to="host"
                 >Host</NavLink>
                 <NavLink 
                     className="nav-links" 
@@ -24,7 +24,7 @@ const Navbar = () => {
                             textDecoration: isActive ? "underline" : "",
                         };
                     }} 
-                    to="/about"
+                    to="about"
                 >About</NavLink>
                 <NavLink 
                     className="nav-links" 
@@ -34,8 +34,18 @@ const Navbar = () => {
                             textDecoration: isActive ? "underline" : "",
                         };
                     }} 
-                    to="/vans"
+                    to="vans"
                 >Vans</NavLink>
+                                <NavLink 
+                    className="nav-links" 
+                    style={({ isActive }) => {
+                        return {
+                            fontWeight: isActive ? "bold": "",
+                            textDecoration: isActive ? "underline" : "",
+                        };
+                    }} 
+                    to="login"
+                >Login</NavLink>
             </div>
         </nav>
     )

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import HostVans from "./HostVans";
 import "./Host.css";
 
 const Host = () => {
@@ -24,7 +23,6 @@ const Host = () => {
                         <h2 className="inline-block">Your listed vans</h2>
                         <Link className="float-right" to="/host/vans">View all</Link>
                     </div> */}
-                    <HostVans />
                 </div>
         </div>
     )

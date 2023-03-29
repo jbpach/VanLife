@@ -1,0 +1,48 @@
+.login {
+    background-color:#FFF7ED;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.login .container {
+    height: 100%;
+    width: 100%;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .container h3 {
+    color: red;
+    margin-bottom: 48px;
+}
+
+.login .container h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.login .container input {
+    align-self: stretch;
+    height: 42px;
+    color: #4d4d4d;
+    padding: 9px 13px;
+    border: none;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.login .container button {
+    width: 30%;
+    margin-bottom: 48px;
+}
+
+.login .container p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
