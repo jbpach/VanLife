@@ -46,6 +46,7 @@ const Navbar = () => {
                     }} 
                     to="login"
                 >Login</NavLink>
+                <button onClick={() => {localStorage.removeItem("loggedIn")}}>X</button>
             </div>
         </nav>
     )
